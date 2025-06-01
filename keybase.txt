@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/clarmso
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://clarmso.ca
+  * I am clarmso (https://keybase.io/clarmso) on keybase.
+  * I have a public key with fingerprint DCB7 E04F 2EAE CA11 FDA1  2B49 84EF E043 7645 1C6D
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101fcd25c9cd0f327ac8acaa48d27fc193f6570488d097a457cbea70db467673a5e0a",
+      "fingerprint": "dcb7e04f2eaeca11fda12b4984efe04376451c6d",
+      "host": "keybase.io",
+      "key_id": "84efe04376451c6d",
+      "kid": "0101fcd25c9cd0f327ac8acaa48d27fc193f6570488d097a457cbea70db467673a5e0a",
+      "uid": "e8bfca1e450d161385ca7e43005bb119",
+      "username": "clarmso"
+    },
+    "merkle_root": {
+      "ctime": 1564200478,
+      "hash_meta": "ed80c11ee2c6758f6de0c4e36df29a2e2a77545df55be5d042b8049e29ebabf7",
+      "seqno": 5863637
+    },
+    "revoke": {
+      "sig_ids": [
+        "50d4bae9caca5e7e4862a9cc2c625fa848da2fdf640f868865638d23d6b075050f"
+      ]
+    },
+    "service": {
+      "hostname": "clarmso.ca",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1564200529,
+  "expire_in": 157680000,
+  "prev": "800c32ab31f1b2eb71910dbd57542afd89f44062987702ee7234553d76bd0352",
+  "seqno": 29,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMKuAnicrZNdaB1FGIZPTEzMEbVKq4hYZRPQaNLOzs7fnvRG1FaqFKM3ljYc5ueb
+c7Y552yyuznNjyESIxZS8aJKabSUml6IvWpDoQVLbdQLrQg2UKoBEYqW1itRg1JB
+Z4MiBS/dm2E/3vne93tm5pM7WgvFltUj/aeqYsdEy4WldLQw2P/lwKSnYjPulSa9
+IVhboGYgzcpDkfFKHvKRb7XBVIfaIBtgLrWQWkoiDOZW+2FgGeWICGFQyCWhXCuQ
+HBlFGGc8kBSQ9Ho9GzUqkAwnUSNzbY1WHBCxGCRo6fvWSB8rEgoC1tUDzgj1NTNu
+YzVO8x0unJIpbIpiV3M/5bV4/6H/n3OPrrUDoazLCYQi4zM/EFRLDiRAiCrl+2Eu
+TCFpyDo4ta7JpJ7G3lSvV4dkqAblJI6znK3OolzhU0YwQoQLN59Mq+U6ZDK3MQJp
+3wfAmnEqLDOANIGAGYtDiQFLzimhxlKqgBpEsBKIhIBDUFJZ7mKkMNKIvRIVLGAB
+dwkSaMZDkJunUcVRS73SLs+NQZSEUDskFNwkgmEZau18MbVSOEoSW2MZQVYwIRhl
+gQMXGKYQp4gi6w1O5WZJM9JrzfNjunn8TTrnN5zEWazjmqtXs2w4LeVUsvHhXLgX
+VPnvFmUVNYy7Im5HE5I0ihuOklPeDIzisNeDseEogXKUKyhnArkv94FmfiEQ0gGW
+KvCtrzAo7oe+O1NDHTcsrRGhJQQxHArOEQbgOCCUBoYzZVBA8b8Ec6tMVlxPx60h
+s9EEvKmlj3a3FVqKhfZbb8nfTqHYue6fF7VltePPrTN4uXdb6/mVjb8Uv/79rkKB
+Xrx/+Whr35svLj77MO5ceLftj3Vde8eixT21gw8+8IK4p2u++7nv3r9w7OLkpW70
+4TvFbbeNXZmunbj20Cu/XT/b/zxJ/Nktj3xhqq9PfD+dzR+bXti+fGPkvSvPrB95
+4tr5c9nmyy0b958+7O37oP2+p85Enw3uwld/WlkZX39q4FD36QN9j+75eWHDEXr9
+R/Z5x2z57n275zvfnnh5p1z5dWZ09bUfcOss6ln+drH/se1wsuetufY3bu9LDxQu
+3RseP9pW3/DpwP6XDj659GoRng6rx7tkpdIz0H61rTk31nHo453fbK6jO7d+dfbc
+3JkbnZcfnxGHWwf/AgXvdcE=
+=AwAz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/clarmso
+
+==================================================================
