@@ -14,7 +14,7 @@
       }
     }());
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'" />
   <link rel="icon" href="{{ site.baseurl }}/assets/icons/favicon.ico" type="image/x-icon">
@@ -38,7 +38,10 @@
     <nav>
       <div id="nav-links">
         <a href="/">
-          <img src="{{ site.baseurl }}/assets/icons/avatar.webp" alt="Site Icon" class="nav-icon" width="40" height="40">
+          <picture>
+            <source srcset="{{ site.baseurl }}/assets/icons/avatar.webp" type="image/webp">
+            <img src="{{ site.baseurl }}/assets/icons/avatar.png" alt="Site Icon" class="nav-icon" width="40" height="40">
+          </picture>
         </a>
         <a href="/">
           Home
