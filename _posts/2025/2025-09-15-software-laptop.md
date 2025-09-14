@@ -5,9 +5,7 @@ subtitle: Nothing fancy, really!
 date: 2025-09-14
 ---
 
-Here's the software on my work computer. Nothing fancy or secret—just practical tools that help me develop and test software used by thousands of people.
-
-I hope this list helps potential contributors get started quickly!
+Here's the software on my work computer. Nothing fancy or secret—anyone can download or subscribe to the software below. These tools help me develop and test software used by thousands of people.
 
 ## Browser: Firefox (and a few others)
 
@@ -15,7 +13,7 @@ I hope this list helps potential contributors get started quickly!
 
 For [web compatibility](https://webcompat.com/) issues, I keep Chrome/Chromium and Safari around for comparison.
 
-## iOS Development: Xcode, command line tools and simulators
+## iOS Development: Xcode, command line tools, and simulators
 
 [Xcode](https://developer.apple.com/xcode/) is the official iOS development tool. I use iOS command line tools like `xcodebuild` and `xcrun` daily, both locally and in CI/CD.
 
@@ -23,7 +21,7 @@ Most end-to-end testing happens on iOS simulators. I keep a physical iPad for bu
 
 ## IDE: VS Code
 
-[VS Code](https://code.visualstudio.com/) is my go-to for Python, bash, YAML, JSON and other languages. It starts quickly and supports many languages out of the box.
+[VS Code](https://code.visualstudio.com/) is my go-to for Python, bash, YAML, JSON, and other languages. It starts quickly and supports many languages out of the box.
 
 I'm also a Vi user. ;-)
 
