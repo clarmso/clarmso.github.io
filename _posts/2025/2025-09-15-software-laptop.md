@@ -27,12 +27,6 @@ Most end-to-end testing happens on iOS simulators. I keep a physical iPad for bu
 
 I'm also a Vi user. ;-)
 
-## AI: ChatGPT and GitHub Copilot
-
-[ChatGPT](https://chatgpt.com/) helps with research, organizing information, and brainstorming. I always provide detailed context and ask it to be critical rather than just agreeable.
-
-[GitHub Copilot](https://github.com/features/copilot) gives AI context about my code and helps with syntax research and debugging. It also provides access to multiple AI vendors (Claude, Gemini, ChatGPT) in one place.
-
 ## Package Management: pyenv, venv, nvm
 
 Different projects need different compiler versions and dependencies that may conflict. Quick switching between environments is essential.
@@ -40,6 +34,12 @@ Different projects need different compiler versions and dependencies that may co
 For Python: `pyenv` switches between Python versions, and each project gets its own `venv`.
 
 For Node: `nvm` manages all Node installations.
+
+## AI: ChatGPT and GitHub Copilot
+
+[ChatGPT](https://chatgpt.com/) helps with research, organizing information, and brainstorming. I always provide detailed context and ask it to be critical rather than just agreeable.
+
+[GitHub Copilot](https://github.com/features/copilot) gives AI context about my code and helps with syntax research and debugging. It also provides access to multiple AI vendors (Claude, Gemini, ChatGPT) in one place.
 
 ## Command Line Tools
 
