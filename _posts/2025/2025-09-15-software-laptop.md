@@ -5,9 +5,9 @@ subtitle: Nothing fancy, really!
 date: 2025-09-14
 ---
 
-Here's the software on my work computer. Nothing fancy or secret—just practical tools that anyone could download and buy. Let me illustrate how the setup help me develop and test software used by thousands of people.
+Here's the software on my work computer. Nothing fancy or secret—just practical tools that help me develop and test software used by thousands of people.
 
-I hope this list can help the potential contributors to get started quickly!
+I hope this list helps potential contributors get started quickly!
 
 ## Browser: Firefox (and a few others)
 
@@ -17,27 +17,27 @@ For [web compatibility](https://webcompat.com/) issues, I keep Chrome/Chromium a
 
 ## iOS Development: Xcode, command line tools and simulators
 
-[Xcode](https://developer.apple.com/xcode/) is the official iOS development tool. I use iOS command line tools such as `xcodebuild` and `xcrun` daily, both locally and in CI/CD.
+[Xcode](https://developer.apple.com/xcode/) is the official iOS development tool. I use iOS command line tools like `xcodebuild` and `xcrun` daily, both locally and in CI/CD.
 
-Most end-to-end testing happens on iOS simulators. I keep a physical iPad just in case of issues that don't show up in simulators. (Pro tip: iPads make great external monitors.)
+Most end-to-end testing happens on iOS simulators. I keep a physical iPad for bugs that don't show up in simulators. (Pro tip: iPads make great external monitors.)
 
 ## IDE: VS Code
 
-[VS Code](https://code.visualstudio.com/) is my go-to for Python, bash, YAML, JSON and other languages and formats. The IDE starts quickly and supports many languages out of the box.
+[VS Code](https://code.visualstudio.com/) is my go-to for Python, bash, YAML, JSON and other languages. It starts quickly and supports many languages out of the box.
 
 I'm also a Vi user. ;-)
 
-## AI: ChatGPT and Github Co-pilot
+## AI: ChatGPT and GitHub Copilot
 
-[ChatGPT](https://chatgpt.com/) helps with research, organizing information, and brainstorming. I always prompt with as much context as possible and ask it to be critical rather than just agreeable.
+[ChatGPT](https://chatgpt.com/) helps with research, organizing information, and brainstorming. I always provide detailed context and ask it to be critical rather than just agreeable.
 
-[GitHub Copilot](https://github.com/features/copilot) helps me, given the source file, to research on language syntax and brainstorm ideas to debug the code. An advantage of this tool is that it provides access to multiple AI vendors (Claude, Gemini, ChatGPT) in one place.
+[GitHub Copilot](https://github.com/features/copilot) gives AI context about my code and helps with syntax research and debugging. It also provides access to multiple AI vendors (Claude, Gemini, ChatGPT) in one place.
 
 ## Package Management: pyenv, venv, nvm
 
-Different projects need different compiler versions and dependencies that may conflict. A quick way to switch between different compiler versions and a set of dependencies is highly desirable.
+Different projects need different compiler versions and dependencies that may conflict. Quick switching between environments is essential.
 
-For Python: `pyenv` switches between Python versions, and each project gets its own virtual environment `venv`.
+For Python: `pyenv` switches between Python versions, and each project gets its own `venv`.
 
 For Node: `nvm` manages all Node installations.
 
@@ -45,7 +45,7 @@ For Node: `nvm` manages all Node installations.
 
 My shell theme comes from [oh my zsh](https://ohmyz.sh/). After years of tweaking prompts, I let the pros handle it.
 
-[Homebrew](http://brew.sh/) installs tools not included in macOS such as the following:
+[Homebrew](http://brew.sh/) installs tools not included in macOS:
 * `xcodes`: Install iOS runtimes and simulators without Xcode
 * `gh` and `git`: Command line Git tools
 * `bitrise`: Verify `bitrise.yml` before pushing changes
