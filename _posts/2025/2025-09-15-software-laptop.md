@@ -5,7 +5,9 @@ subtitle: Nothing fancy, really!
 date: 2025-09-14
 ---
 
-Here's the software on my work computer. Nothing fancy or secret—anyone can download or subscribe to the software below. These tools help me develop and test software used by thousands of people.
+Here's the software on my work computer. Nothing fancy or secret—anyone can download or subscribe to the software below. These tools help me work on [Firefox iOS](https://github.com/mozilla-mobile/firefox-ios).
+
+Potential contributors: You can use these software tools in your work, too!
 
 ## Browser: Firefox (and a few others)
 
