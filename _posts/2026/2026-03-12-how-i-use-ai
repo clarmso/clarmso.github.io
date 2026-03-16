@@ -1,6 +1,9 @@
-# How I use AI
-
-## Introduction
+---
+layout: post
+title: How I use AI (2026)
+subtitle: 
+date: 2026-03-17
+---
 
 AI is here to stay. It has revealed how much of our daily work is repetitive, much like how we once moved away from typists and data entry clerks. The future of work is more abstract, like coding in high-level languages instead of assembly. Forced memorization and routine tasks will lose their value. What rises in value is agency, imagination, curiosity, and the ability to ask good questions. These are things AI cannot replace... yet!
 
@@ -38,4 +41,5 @@ Abstract and critical thinking is expected rather than optional: defining proble
 
 AI-related tooling should include more ways to include and specify context. I've mentioned how the existing codebase and the microphone can help shape the question in addition to the prompt. In the immediate future, using MCP sounds like a good idea to incorporate more context into the prompt.
 
-How are your AI usage journeys?
+Let me look back to this post in 1 year, 2 years, 5 years, 10 years...
+![One eternity later](/assets/gifs/SpongebobOneEternityLater.gif)
