@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How I use AI (2026)
-subtitle: 
-date: 2026-03-17
+subtitle: My new rubber duck 🦆
+date: 2026-03-16
 ---
 
 AI is here to stay. It has revealed how much of our daily work is repetitive, much like how we once moved away from typists and data entry clerks. The future of work is more abstract, like coding in high-level languages instead of assembly. Forced memorization and routine tasks will lose their value. What rises in value is agency, imagination, curiosity, and the ability to ask good questions. These are things AI cannot replace... yet!
@@ -29,17 +29,17 @@ I like Notion AI's chat interface working directly with the document and the mic
 
 In coding, AI often feels like a glorified Stack Overflow. It's useful for quickly researching a framework, getting syntax and library suggestions, and clarifying what a framework can and cannot do. In addition, it applies the code changes without the classic "copy and paste from Stack Overflow".
 
-AI has helped me with code refactoring. With the right prompts and good context, it can help me restructure code much faster than I would have done alone. (For example [PR #231](https://github.com/mozilla-mobile/testops-dashboard/pull/231) was conceived and done within an hour during a commute. 🚂)
+AI has helped me with code refactoring. With the right prompts and good context, it can help me restructure code much faster than I would have done alone. (For example, [PR #231](https://github.com/mozilla-mobile/testops-dashboard/pull/231) was conceived and done within an hour during a commute. 🚂)
 
 It also helps with troubleshooting: resolving linting issues, analyzing test results and interpreting error messages. These tasks used to involve a lot of searching. AI consolidates that into a faster feedback loop.
 
-Both Claude Code and GitHub Copilot together with VS Code have been my daily drivers for coding-related tasks. Together with VS Code, they gather context from my terminal and the codebase to provide informed answers.
+Claude Code and GitHub Copilot, both integrated with VS Code, have been my daily drivers for coding-related tasks, gathering context from my terminal and the codebase to provide informed answers.
 
 ## What work means moving forward
 
-Abstract and critical thinking is expected rather than optional: defining problems, making tradeoffs, and composing systems, rather than cranking out code. Knowing a fact, such as reciting the definition of [call-by-value](https://en.wikipedia.org/wiki/Evaluation_strategy), no longer suffices. Understanding how a fact affects how things work together becomes expected.
+Abstract and critical thinking is expected rather than optional: defining problems, making trade-offs, and composing systems, rather than cranking out code. Knowing a fact, such as reciting the definition of [call-by-value](https://en.wikipedia.org/wiki/Evaluation_strategy), no longer suffices. Understanding how a fact affects how things work together becomes expected.
 
-AI-related tooling should include more ways to include and specify context. I've mentioned how the existing codebase and the microphone can help shape the question in addition to the prompt. In the immediate future, using MCP sounds like a good idea to incorporate more context into the prompt.
+AI-related tooling should include more ways to specify context. I've mentioned how the existing codebase and the microphone can help shape the question in addition to the prompt. In the immediate future, using MCP sounds like a good idea to incorporate more context into the prompt.
 
 Let me look back to this post in 1 year, 2 years, 5 years, 10 years...
 ![One eternity later](/assets/gifs/SpongebobOneEternityLater.gif)
