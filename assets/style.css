@@ -119,6 +119,17 @@ a:hover, a:focus {
   color: #4f8cff;
 }
 
+.contact-links img {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.12em;
+  margin-right: 0.35em;
+}
+
+.contact-links img[src*="linkedin"] {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(90%) saturate(1200%) hue-rotate(190deg) brightness(95%);
+}
+
 /* Pagination Navigation */
 .pagination-nav {
   display: flex;
