@@ -119,6 +119,17 @@ a:hover, a:focus {
   color: #4f8cff;
 }
 
+.contact-links img {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.12em;
+  margin-right: 0.35em;
+}
+
+.contact-links img[src*="linkedin"] {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(90%) saturate(1200%) hue-rotate(190deg) brightness(95%);
+}
+
 /* Pagination Navigation */
 .pagination-nav {
   display: flex;
@@ -136,56 +147,10 @@ a:hover, a:focus {
 
 /* Footer styles */
 .site-footer {
-  text-align: left;
+  text-align: center;
    /* padding: 1em 0; */
   font-size: 0.8em;
   color: inherit;
-}
-
-.footer-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 8px;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.footer-social-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  padding: 0;
-  border-radius: 999px;
-}
-
-.social-icon-brand {
-  width: 16px;
-  height: 16px;
-  display: block;
-  filter: brightness(0) saturate(100%);
-  transition: filter 0.2s;
-}
-
-html.dark-mode .site-footer .footer-social .footer-social-link .social-icon-brand {
-  filter: brightness(0) saturate(100%) invert(1);
-}
-
-.site-footer .footer-social .footer-social-link:hover .social-icon-brand,
-.site-footer .footer-social .footer-social-link:focus-visible .social-icon-brand {
-  filter: brightness(0) saturate(100%) invert(53%) sepia(74%) saturate(1651%) hue-rotate(196deg) brightness(102%) contrast(102%);
-}
-
-.footer-social-link {
-  color: var(--text-color);
 }
 
 .footer-copyright {
@@ -281,15 +246,6 @@ html.dark-mode .site-footer .footer-social .footer-social-link .social-icon-bran
     height: 1.1em;
   }
 
-  .footer-meta {
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .site-footer {
-    text-align: center;
-  }
 }
 
 /* Desktop styles */
