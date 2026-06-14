@@ -171,20 +171,17 @@ a:hover, a:focus {
   width: 16px;
   height: 16px;
   display: block;
+  filter: brightness(0) saturate(100%);
+  transition: filter 0.2s;
 }
 
-.site-footer .footer-social .footer-social-link .social-icon-brand path {
-  fill: var(--text-color, #333);
-  transition: fill 0.2s;
+html.dark-mode .site-footer .footer-social .footer-social-link .social-icon-brand {
+  filter: brightness(0) saturate(100%) invert(1);
 }
 
-html.dark-mode .site-footer .footer-social .footer-social-link .social-icon-brand path {
-  fill: var(--text-color, #e0e0e0);
-}
-
-.site-footer .footer-social .footer-social-link:hover .social-icon-brand path,
-.site-footer .footer-social .footer-social-link:focus-visible .social-icon-brand path {
-  fill: #4f8cff;
+.site-footer .footer-social .footer-social-link:hover .social-icon-brand,
+.site-footer .footer-social .footer-social-link:focus-visible .social-icon-brand {
+  filter: brightness(0) saturate(100%) invert(53%) sepia(74%) saturate(1651%) hue-rotate(196deg) brightness(102%) contrast(102%);
 }
 
 .footer-social-link {
