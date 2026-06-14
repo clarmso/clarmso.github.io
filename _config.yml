@@ -7,6 +7,12 @@ theme: minima
 permalink: /blog/:year/:month/:title/
 
 # Build settings
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - color-functions
+    - import
+
 pagination:
   enabled: true
   per_page: 10

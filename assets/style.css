@@ -136,10 +136,51 @@ a:hover, a:focus {
 
 /* Footer styles */
 .site-footer {
-  text-align: center;
+  text-align: left;
    /* padding: 1em 0; */
   font-size: 0.8em;
   color: inherit;
+}
+
+.footer-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+
+.footer-social-link img {
+  width: 16px;
+  height: 16px;
+}
+
+.social-icon-brand {
+  /* Render all social icons in monochrome for a consistent footer style. */
+  filter: grayscale(1) brightness(0);
+}
+
+html.dark-mode .social-icon-brand {
+  filter: grayscale(1) brightness(0) invert(1);
+}
+
+.footer-copyright {
+  margin: 0;
 }
 
 /* Post title styling */
@@ -229,6 +270,16 @@ a:hover, a:focus {
   #theme-toggle img {
     width: 1.1em;          /* Match icon size to text */
     height: 1.1em;
+  }
+
+  .footer-meta {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .site-footer {
+    text-align: center;
   }
 }
 
