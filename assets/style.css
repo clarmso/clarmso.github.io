@@ -171,7 +171,14 @@ a:hover, a:focus {
   width: 16px;
   height: 16px;
   display: block;
-  fill: currentColor;
+}
+
+.social-icon-brand path {
+  fill: var(--text-color, #333);
+}
+
+html.dark-mode .social-icon-brand path {
+  fill: var(--text-color, #e0e0e0);
 }
 
 .footer-social-link {
