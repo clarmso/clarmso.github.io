@@ -160,23 +160,22 @@ a:hover, a:focus {
 .footer-social-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 4px 8px;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
   border-radius: 999px;
 }
 
-.footer-social-link img {
+.social-icon-brand {
   width: 16px;
   height: 16px;
+  display: block;
+  fill: currentColor;
 }
 
-.social-icon-brand {
-  /* Render all social icons in monochrome for a consistent footer style. */
-  filter: grayscale(1) brightness(0);
-}
-
-html.dark-mode .social-icon-brand {
-  filter: grayscale(1) brightness(0) invert(1);
+.footer-social-link {
+  color: var(--text-color);
 }
 
 .footer-copyright {
