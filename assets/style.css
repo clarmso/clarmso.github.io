@@ -175,10 +175,16 @@ a:hover, a:focus {
 
 .social-icon-brand path {
   fill: var(--text-color, #333);
+  transition: fill 0.2s;
 }
 
 html.dark-mode .social-icon-brand path {
   fill: var(--text-color, #e0e0e0);
+}
+
+.footer-social-link:hover .social-icon-brand path,
+.footer-social-link:focus-visible .social-icon-brand path {
+  fill: #4f8cff;
 }
 
 .footer-social-link {
