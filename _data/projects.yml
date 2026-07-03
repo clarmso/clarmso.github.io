@@ -1,0 +1,23 @@
+- title: Wacky News Reader
+  year: 2021
+  url: https://clarmso.ca/wacky-news-reader/#/
+  image: /assets/images/projects/wacky-news-reader.png
+  description: >
+    A fun front-end project that revisits the late 1990s web aesthetic.
+    News articles are fetched from the New York Times Top Stories API.
+  tags:
+    - React
+    - TypeScript
+    - REST API
+
+- title: Cards Against Containers
+  year: 2021
+  url: https://clarmso.ca/cards-against-containers/
+  image: /assets/images/projects/cards-against-containers.png
+  description: >
+    Card deck originally created by <a href="https://github.com/cardsagainstcontainers/deck" target="_blank" rel="noopener">Sysdig</a>
+    as a DevOps parody of the popular card game "Cards Against Humanity".
+    This front-end project picks random card combinations.
+  tags:
+    - React
+    - JavaScript

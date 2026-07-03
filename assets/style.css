@@ -215,6 +215,93 @@ html.dark-mode .footer-social img {
   font-style: italic;
 }
 
+/* Project cards */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+  display: block;
+  cursor: pointer;
+}
+
+.dark-mode .project-card {
+  border-color: #444;
+}
+
+.project-card:hover,
+.project-card:focus {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+.dark-mode .project-card-image {
+  border-bottom-color: #444;
+}
+
+.project-card-body {
+  padding: 1em 1.2em;
+}
+
+.project-card-body h2 {
+  margin: 0 0 0.5em;
+  font-size: 1.3rem;
+}
+
+.project-date {
+  font-size: 0.85rem;
+  color: #888;
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+.project-card-body a {
+  text-decoration: underline;
+}
+
+.project-card-body p {
+  margin: 0 0 0.75em;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.project-tag {
+  font-size: 0.75rem;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  background: #e8e8e8;
+  color: #555;
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+.dark-mode .project-tag {
+  background: #333;
+  color: #ccc;
+}
+
 /* Responsive styles for mobile devices */
 @media (max-width: 600px) {
   body {
@@ -263,6 +350,13 @@ html.dark-mode .footer-social img {
     height: 1.1em;
   }
 
+}
+
+/* Desktop project grid: two cards per row */
+@media (min-width: 601px) {
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* Desktop styles */
