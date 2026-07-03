@@ -163,10 +163,11 @@ a:hover, a:focus {
 .footer-social img {
   width: 1.4em;
   height: 1.4em;
+  filter: brightness(0);
 }
 
-.footer-social img[src*="linkedin"] {
-  filter: brightness(0) saturate(100%) invert(26%) sepia(90%) saturate(1200%) hue-rotate(190deg) brightness(95%);
+html.dark-mode .footer-social img {
+  filter: brightness(0) invert(1);
 }
 
 .footer-copyright {
