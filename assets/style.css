@@ -153,20 +153,20 @@ a:hover, a:focus {
   color: inherit;
 }
 
-.footer-social {
+.footer-links {
   display: flex;
   justify-content: center;
   gap: 1em;
   margin-bottom: 0.5em;
 }
 
-.footer-social img {
+.footer-links img {
   width: 1.4em;
   height: 1.4em;
   filter: brightness(0);
 }
 
-html.dark-mode .footer-social img {
+html.dark-mode .footer-links img {
   filter: brightness(0) invert(1);
 }
 
