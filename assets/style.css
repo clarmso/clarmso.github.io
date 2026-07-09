@@ -82,18 +82,24 @@ nav {
 
 .nav-brands {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 8px;
+}
+
+.nav-brands a {
+  display: flex;
+  align-items: center;
 }
 
 .nav-brands img {
   width: 1.3em;
   height: 1.3em;
-  filter: brightness(0);
+  filter: brightness(0) saturate(0);
 }
 
 html.dark-mode .nav-brands img {
-  filter: brightness(0) invert(1);
+  filter: brightness(0) saturate(0) invert(1);
 }
 
 #nav-links {
