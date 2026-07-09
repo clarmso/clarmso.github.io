@@ -80,25 +80,25 @@ nav {
   gap: 10px;
 }
 
-.nav-social {
+.nav-brands {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 8px;
 }
 
-.nav-social a {
+.nav-brands a {
   display: flex;
   align-items: center;
 }
 
-.nav-social img {
+.nav-brands img {
   width: 1.3em;
   height: 1.3em;
   filter: brightness(0) saturate(0);
 }
 
-html.dark-mode .nav-social img {
+html.dark-mode .nav-brands img {
   filter: brightness(0) saturate(0) invert(1);
 }
 
