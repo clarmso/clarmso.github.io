@@ -20,18 +20,10 @@ html.dark-mode a:focus {
   color: #99ff66;
 }
 
-html.dark-mode .post-content h1 {
-  color: #33ff00;
-}
-
 html.dark-mode .post-subtitle {
-  color: #22cc00;
+  color: var(--text-color);
   font-style: normal;
   font-weight: 700;
-}
-
-html.dark-mode .project-date {
-  color: #22cc00;
 }
 
 html.dark-mode .project-card {
@@ -42,9 +34,18 @@ html.dark-mode .project-card-image {
   border-bottom-color: #33ff00;
 }
 
+html.dark-mode hr {
+  border: none;
+  border-top: 1px solid #33ff00;
+}
+
+html.dark-mode .project-date {
+  color: var(--text-color);
+}
+
 html.dark-mode .project-tag {
   background: #0a2200;
-  color: #33ff00;
+  color: var(--text-color);
 }
 
 
