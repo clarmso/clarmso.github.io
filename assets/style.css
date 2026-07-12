@@ -72,6 +72,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Instrument Sans', sans-serif;
 }
 
+/* Override nav font in dark mode to match the rest of the page */
+html.dark-mode #nav-links a,
+html.dark-mode .nav-controls button {
+  font-family: 'Courier Prime', 'Courier New', monospace;
+}
+
 /* Theme Toggle */
 #theme-toggle {
   cursor: pointer;
