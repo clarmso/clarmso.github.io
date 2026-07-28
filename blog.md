@@ -6,7 +6,7 @@ pagination:
   enabled: true
 ---
 
-<h1>Blog 📔</h1>
+<h1>Blog 📜</h1>
 <!--
 <p>Total posts: {{ paginator.posts | size }}</p>
 <p>Total pages: {{ paginator.total_pages }}</p>

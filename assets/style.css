@@ -342,6 +342,10 @@ a:hover, a:focus {
   color: #ccc;
 }
 
+/* Hide emoji on desktop, show text */
+.nav-emoji { display: none; }
+.nav-text  { display: inline; }
+
 /* Responsive styles for mobile devices */
 @media (max-width: 600px) {
   body {
@@ -368,25 +372,34 @@ a:hover, a:focus {
     gap: 10px;
     width: auto;
   }
+
+  /* Swap text labels for emoji on small screens */
+  .nav-emoji { display: inline; }
+  .nav-text  { display: none; }
+
+  /* Hide the avatar icon link (Home emoji serves as home link) */
+  .nav-avatar-link { display: none; }
+
   #nav-links a {
-    font-size: 1.1em;
+    font-size: 1.3em;
+    padding: 8px 4px;
   }
   .nav-icon {
-    width: 20px;      /* Adjust the size as needed */
+    width: 20px;
     height: 20px;
-    border-radius: 50%; /* Makes the image round */
-    margin-right: 8px;  /* Spacing between the image and "Home" text */
-    object-fit: cover;  /* Ensures the image fills the container neatly */
+    border-radius: 50%;
+    margin-right: 8px;
+    object-fit: cover;
   }
 
   #theme-toggle {
-    font-size: 1.1em;      /* Match nav link font size */
+    font-size: 1.1em;
     width: auto;
     height: auto;
     padding: 0 8px;
   }
   #theme-toggle img {
-    width: 1.1em;          /* Match icon size to text */
+    width: 1.1em;
     height: 1.1em;
   }
 
